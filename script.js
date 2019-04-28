@@ -1,8 +1,3 @@
-//This bot was made by Victor
-//The bot is intended for "https://shiritorigame.com"
-//This script is not made with any particular purpose, use this script at your own risk and responsibility.
-//To use this script, paste the code into the browser console and spam enter when its your turn. Because variables are not reset between games, you'll have to refresh your browser between every game.
-
 var aCount = 0; var bCount = 0; var cCount = 0; var dCount = 0; var eCount = 0;
 var fCount = 0; var gCount = 0; var hCount = 0; var iCount = 0; var jCount = 0;
 var kCount = 0; var lCount = 0; var mCount = 0; var nCount = 0; var oCount = 0;
@@ -42,141 +37,219 @@ var myTurn = false;
 var myInterval = setInterval(function() {
     if (document.getElementById("left").children[3].firstElementChild.firstElementChild.placeholder == 'a' && myTurn == false)
     {
-        inputTrigger(aWords[aCount]);
-        aCount++;
+        if (aCount <= aWords.length)
+        {
+            inputTrigger(aWords[aCount]);
+            aCount++;
+        }
     }
     else if (document.getElementById("left").children[3].firstElementChild.firstElementChild.placeholder == 'b' && myTurn == false)
     {
-        inputTrigger(bWords[bCount]);
-        bCount++;
+        if (bCount <= bWords.length)
+        {
+            inputTrigger(bWords[bCount]);
+            bCount++;
+        }
     }
     else if (document.getElementById("left").children[3].firstElementChild.firstElementChild.placeholder == 'c' && myTurn == false)
     {
-        inputTrigger(cWords[cCount]);
-        cCount++;
+        if (cCount <= cWords.length)
+        {
+            inputTrigger(cWords[cCount]);
+            cCount++;
+        }
     }
     else if (document.getElementById("left").children[3].firstElementChild.firstElementChild.placeholder == 'd' && myTurn == false)
     {
-        inputTrigger(dWords[dCount]);
-        dCount++;
+        if (dCount <= dWords.length)
+        {
+            inputTrigger(dWords[dCount]);
+            dCount++;
+        }
     }
     else if (document.getElementById("left").children[3].firstElementChild.firstElementChild.placeholder == 'e' && myTurn == false)
     {
-        inputTrigger(eWords[eCount]);
-        eCount++;
+        if (eCount <= eWords.length)
+        {
+            inputTrigger(eWords[eCount]);
+            eCount++;
+        }
     }
     else if (document.getElementById("left").children[3].firstElementChild.firstElementChild.placeholder == 'f' && myTurn == false && myTurn == false)
     {
-        inputTrigger(fWords[fCount]);
-        fCount++;
+        if (fCount <= fWords.length)
+        {
+            inputTrigger(fWords[fCount]);
+            fCount++;
+        }
     }
     else if (document.getElementById("left").children[3].firstElementChild.firstElementChild.placeholder == 'g' && myTurn == false)
     {
-        inputTrigger(gWords[gCount]);
-        gCount++;
+        if (gCount <= gWords.length)
+        {
+            inputTrigger(gWords[gCount]);
+            gCount++;
+        }
     }
     else if (document.getElementById("left").children[3].firstElementChild.firstElementChild.placeholder == 'h' && myTurn == false)
     {
-        inputTrigger(hWords[hCount]);
-        hCount++;
+        if (hCount <= hWords.length)
+        {
+            inputTrigger(hWords[hCount]);
+            hCount++;
+        }
     }
     else if (document.getElementById("left").children[3].firstElementChild.firstElementChild.placeholder == 'i' && myTurn == false)
     {
-        inputTrigger(iWords[iCount]);
-        iCount++;
+        if (iCount <= iWords.length)
+        {
+            inputTrigger(iWords[iCount]);
+            iCount++;
+        }
     }
     else if (document.getElementById("left").children[3].firstElementChild.firstElementChild.placeholder == 'j' && myTurn == false)
     {
-        inputTrigger(jWords[jCount]);
-        jCount++;
+        if (jCount <= jWords.length)
+        {
+            inputTrigger(jWords[jCount]);
+            jCount++;
+        }
     }
     else if (document.getElementById("left").children[3].firstElementChild.firstElementChild.placeholder == 'k' && myTurn == false)
     {
-        inputTrigger(kWords[kCount]);
-        kCount++;
+        if (kCount <= kWords.length)
+        {
+            inputTrigger(kWords[kCount]);
+            kCount++;
+        }
     }
     else if (document.getElementById("left").children[3].firstElementChild.firstElementChild.placeholder == 'l' && myTurn == false)
     {
-        inputTrigger(lWords[lCount]);
-        lCount++;
+        if (lCount <= lWords.length)
+        {
+            inputTrigger(lWords[lCount]);
+            lCount++;
+        }
     }
     else if (document.getElementById("left").children[3].firstElementChild.firstElementChild.placeholder == 'm' && myTurn == false)
     {
-        inputTrigger(mWords[mCount]);
-        mCount++;
+        if (mCount <= mWords.length)
+        {
+            inputTrigger(mWords[mCount]);
+            mCount++;
+        }
     }
     else if (document.getElementById("left").children[3].firstElementChild.firstElementChild.placeholder == 'n' && myTurn == false)
     {
-        inputTrigger(nWords[nCount]);
-        nCount++;
+        if (nCount <= nWords.length)
+        {
+            inputTrigger(nWords[nCount]);
+            nCount++;
+        }
     }
     else if (document.getElementById("left").children[3].firstElementChild.firstElementChild.placeholder == 'o' && myTurn == false)
     {
-        inputTrigger(oWords[oCount]);
-        oCount++;
+        if (oCount <= oWords.length)
+        {
+            inputTrigger(oWords[oCount]);
+            oCount++;
+        }
     }
     else if (document.getElementById("left").children[3].firstElementChild.firstElementChild.placeholder == 'p' && myTurn == false)
     {
-        inputTrigger(pWords[pCount]);
-        pCount++;
+        if (pCount <= pWords.length)
+        {
+            inputTrigger(pWords[pCount]);
+            pCount++;
+        }
     }
     else if (document.getElementById("left").children[3].firstElementChild.firstElementChild.placeholder == 'q' && myTurn == false)
     {
-        inputTrigger(qWords[qCount]);
-        qCount++;
+        if (qCount <= qWords.length)
+        {
+            inputTrigger(qWords[qCount]);
+            qCount++;
+        }
     }
     else if (document.getElementById("left").children[3].firstElementChild.firstElementChild.placeholder == 'r' && myTurn == false)
     {
-        inputTrigger(rWords[rCount]);
-        rCount++;
+        if (rCount <= rWords.length)
+        {
+            inputTrigger(rWords[rCount]);
+            rCount++;
+        }
     }
     else if (document.getElementById("left").children[3].firstElementChild.firstElementChild.placeholder == 's' && myTurn == false)
-    {
-        inputTrigger(sWords[sCount]);
-        sCount++;
+    
+        if (sCount <= sWords.length)
+        {
+            inputTrigger(sWords[sCount]);
+            sCount++;
+        }
     }
     else if (document.getElementById("left").children[3].firstElementChild.firstElementChild.placeholder == 't' && myTurn == false)
     {
-        inputTrigger(tWords[tCount]);
-        tCount++;
+        if (tCount <= tWords.length)
+        {
+            inputTrigger(tWords[tCount]);
+            tCount++;
+        }
     }
     else if (document.getElementById("left").children[3].firstElementChild.firstElementChild.placeholder == 'u' && myTurn == false)
     {
-        inputTrigger(uWords[uCount]);
-        uCount++;
+        if (uCount <= uWords.length)
+        {
+            inputTrigger(uWords[uCount]);
+            uCount++;
+        }
     }
     else if (document.getElementById("left").children[3].firstElementChild.firstElementChild.placeholder == 'v' && myTurn == false)
     {
-        inputTrigger(vWords[vCount]);
-        vCount++;
+        if (vCount <= vWords.length)
+        {
+            inputTrigger(vWords[vCount]);
+            vCount++;
+        }
     }
     else if (document.getElementById("left").children[3].firstElementChild.firstElementChild.placeholder == 'w' && myTurn == false)
     {
-        inputTrigger(wWords[wCount]);
-        wCount++;
+        if (wCount <= wWords.length)
+        {
+            inputTrigger(wWords[wCount]);
+            wCount++;
+        }
     }
     else if (document.getElementById("left").children[3].firstElementChild.firstElementChild.placeholder == 'x' && myTurn == false)
     {
-        inputTrigger(xWords[xCount]);
-        xCount++;
+        if (xCount <= xWords.length)
+        {
+            inputTrigger(xWords[xCount]);
+            xCount++;
+        }
     }
     else if (document.getElementById("left").children[3].firstElementChild.firstElementChild.placeholder == 'y' && myTurn == false)
     {
-        inputTrigger(yWords[yCount]);
-        yCount++;
+        if (yCount <= yWords.length)
+        {
+            inputTrigger(yWords[yCount]);
+            yCount++;
+        }
     }
     else if (document.getElementById("left").children[3].firstElementChild.firstElementChild.placeholder == 'z' && myTurn == false)
     {
-        inputTrigger(zWords[zCount]);
-        zCount++;
+        if (zCount <= zWords.length)
+        {
+            inputTrigger(zWords[zCount]);
+            zCount++;
+        }
     }
     else
         myTurn = false;
         
-}, 200);
+}, 400);
 function inputTrigger(word)
 {
     document.getElementById("left").children[3].firstElementChild.firstElementChild.value = word;
-	alert("click enter you fucking neanderthal");
+	alert("Click enter");
     myTurn = true;
 }
