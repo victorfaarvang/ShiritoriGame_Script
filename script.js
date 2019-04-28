@@ -180,7 +180,7 @@ var myInterval = setInterval(function() {
         }
     }
     else if (document.getElementById("left").children[3].firstElementChild.firstElementChild.placeholder == 's' && myTurn == false)
-    
+    {
         if (sCount <= sWords.length)
         {
             inputTrigger(sWords[sCount]);
