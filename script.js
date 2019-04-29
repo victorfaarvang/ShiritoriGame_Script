@@ -79,7 +79,7 @@ var myInterval = setInterval(function() {
         {
             inputTrigger(dWords[dCount]);
             dCount++;
-            console.log("a: " + aCount + " of " + dWords.length);
+            console.log("d: " + dCount + " of " + dWords.length);
         }
     }
     else if (document.getElementById("inputField").placeholder == 'e' && myTurn == false)
