@@ -52,7 +52,7 @@ var myInterval = setInterval(function() {
             //Make the move and count the amount of times this letter has been used
             inputTrigger(aWords[aCount]);
             aCount++;
-            console.log(aCount);
+            console.log("a: " + aCount + " of " + aWords.length);
         }
     }
     else if (document.getElementById("inputField").placeholder == 'b' && myTurn == false)
@@ -61,7 +61,7 @@ var myInterval = setInterval(function() {
         {
             inputTrigger(bWords[bCount]);
             bCount++;
-            console.log(bCount);
+            console.log("b: " + bCount + " of " + bWords.length);
         }
     }
     else if (document.getElementById("inputField").placeholder == 'c' && myTurn == false)
@@ -70,7 +70,7 @@ var myInterval = setInterval(function() {
         {
             inputTrigger(cWords[cCount]);
             cCount++;
-            console.log(cCount);
+            console.log("c: " + cCount + " of " + cWords.length);
         }
     }
     else if (document.getElementById("inputField").placeholder == 'd' && myTurn == false)
@@ -79,7 +79,7 @@ var myInterval = setInterval(function() {
         {
             inputTrigger(dWords[dCount]);
             dCount++;
-            console.log(dCount);
+            console.log("a: " + aCount + " of " + dWords.length);
         }
     }
     else if (document.getElementById("inputField").placeholder == 'e' && myTurn == false)
@@ -88,7 +88,7 @@ var myInterval = setInterval(function() {
         {
             inputTrigger(eWords[eCount]);
             eCount++;
-            console.log(eCount);
+            console.log("e: " + eCount + " of " + eWords.length);
         }
     }
     else if (document.getElementById("inputField").placeholder == 'f' && myTurn == false)
@@ -97,7 +97,7 @@ var myInterval = setInterval(function() {
         {
             inputTrigger(fWords[fCount]);
             fCount++;
-            console.log(fCount);
+            console.log("f: " + fCount + " of " + fWords.length);
         }
     }
     else if (document.getElementById("inputField").placeholder == 'g' && myTurn == false)
@@ -106,7 +106,7 @@ var myInterval = setInterval(function() {
         {
             inputTrigger(gWords[gCount]);
             gCount++;
-            console.log(gCount);
+            console.log("g: " + gCount + " of " + gWords.length);
         }
     }
     else if (document.getElementById("inputField").placeholder == 'h' && myTurn == false)
@@ -115,7 +115,7 @@ var myInterval = setInterval(function() {
         {
             inputTrigger(hWords[hCount]);
             hCount++;
-            console.log(hCount);
+            console.log("h: " + hCount + " of " + hWords.length);
         }
     }
     else if (document.getElementById("inputField").placeholder == 'i' && myTurn == false)
@@ -124,7 +124,7 @@ var myInterval = setInterval(function() {
         {
             inputTrigger(iWords[iCount]);
             iCount++;
-            console.log(iCount);
+            console.log("i: " + iCount + " of " + iWords.length);
         }
     }
     else if (document.getElementById("inputField").placeholder == 'j' && myTurn == false)
@@ -133,7 +133,7 @@ var myInterval = setInterval(function() {
         {
             inputTrigger(jWords[jCount]);
             jCount++;
-            console.log(jCount);
+            console.log("j: " + jCount + " of " + jWords.length);
         }
     }
     else if (document.getElementById("inputField").placeholder == 'k' && myTurn == false)
@@ -142,7 +142,7 @@ var myInterval = setInterval(function() {
         {
             inputTrigger(kWords[kCount]);
             kCount++;
-            console.log(kCount);
+            console.log("k: " + kCount + " of " + kWords.length);
         }
     }
     else if (document.getElementById("inputField").placeholder == 'l' && myTurn == false)
@@ -151,7 +151,7 @@ var myInterval = setInterval(function() {
         {
             inputTrigger(lWords[lCount]);
             lCount++;
-            console.log(lCount);
+            console.log("l: " + lCount + " of " + lWords.length);
         }
     }
     else if (document.getElementById("inputField").placeholder == 'm' && myTurn == false)
@@ -160,7 +160,7 @@ var myInterval = setInterval(function() {
         {
             inputTrigger(mWords[mCount]);
             mCount++;
-            console.log(mCount);
+            console.log("m: " + mCount + " of " + mWords.length);
         }
     }
     else if (document.getElementById("inputField").placeholder == 'n' && myTurn == false)
@@ -169,7 +169,7 @@ var myInterval = setInterval(function() {
         {
             inputTrigger(nWords[nCount]);
             nCount++;
-            console.log(nCount);
+            console.log("n: " + nCount + " of " + nWords.length);
         }
     }
     else if (document.getElementById("inputField").placeholder == 'o' && myTurn == false)
@@ -178,7 +178,7 @@ var myInterval = setInterval(function() {
         {
             inputTrigger(oWords[oCount]);
             oCount++;
-            console.log(oCount);
+            console.log("o: " + oCount + " of " + oWords.length);
         }
     }
     else if (document.getElementById("inputField").placeholder == 'p' && myTurn == false)
@@ -187,7 +187,7 @@ var myInterval = setInterval(function() {
         {
             inputTrigger(pWords[pCount]);
             pCount++;
-            console.log(pCount);
+            console.log("p: " + pCount + " of " + pWords.length);
         }
     }
     else if (document.getElementById("inputField").placeholder == 'q' && myTurn == false)
@@ -196,7 +196,7 @@ var myInterval = setInterval(function() {
         {
             inputTrigger(qWords[qCount]);
             qCount++;
-            console.log(qCount);
+            console.log("q: " + qCount + " of " + qWords.length);
         }
     }
     else if (document.getElementById("inputField").placeholder == 'r' && myTurn == false)
@@ -205,7 +205,7 @@ var myInterval = setInterval(function() {
         {
             inputTrigger(rWords[rCount]);
             rCount++;
-            console.log(rCount);
+            console.log("r: " + rCount + " of " + rWords.length);
         }
     }
     else if (document.getElementById("inputField").placeholder == 's' && myTurn == false)
@@ -214,7 +214,7 @@ var myInterval = setInterval(function() {
         {
             inputTrigger(sWords[sCount]);
             sCount++;
-            console.log(sCount);
+            console.log("s: " + sCount + " of " + sWords.length);
         }
     }
     else if (document.getElementById("inputField").placeholder == 't' && myTurn == false)
@@ -223,7 +223,7 @@ var myInterval = setInterval(function() {
         {
             inputTrigger(tWords[tCount]);
             tCount++;
-            console.log(tCount);
+            console.log("t: " + tCount + " of " + dWords.length);
         }
     }
     else if (document.getElementById("inputField").placeholder == 'u' && myTurn == false)
@@ -232,7 +232,7 @@ var myInterval = setInterval(function() {
         {
             inputTrigger(uWords[uCount]);
             uCount++;
-            console.log(uCount);
+            console.log("u: " + uCount + " of " + uWords.length);
         }
     }
     else if (document.getElementById("inputField").placeholder == 'v' && myTurn == false)
@@ -241,7 +241,7 @@ var myInterval = setInterval(function() {
         {
             inputTrigger(vWords[vCount]);
             vCount++;
-            console.log(vCount);
+            console.log("v: " + vCount + " of " + vWords.length);
         }
     }
     else if (document.getElementById("inputField").placeholder == 'w' && myTurn == false)
@@ -250,7 +250,7 @@ var myInterval = setInterval(function() {
         {
             inputTrigger(wWords[wCount]);
             wCount++;
-            console.log(wCount);
+            console.log("w: " + wCount + " of " + wWords.length);
         }
     }
     else if (document.getElementById("inputField").placeholder == 'x' && myTurn == false)
@@ -259,7 +259,7 @@ var myInterval = setInterval(function() {
         {
             inputTrigger(xWords[xCount]);
             xCount++;
-            console.log(xCount);
+            console.log("x: " + xCount + " of " + xWords.length);
         }
     }
     else if (document.getElementById("inputField").placeholder == 'y' && myTurn == false)
@@ -268,7 +268,7 @@ var myInterval = setInterval(function() {
         {
             inputTrigger(yWords[yCount]);
             yCount++;
-            console.log(yCount);
+            console.log("y: " + yCount + " of " + yWords.length);
         }
     }
     else if (document.getElementById("inputField").placeholder == 'z' && myTurn == false)
@@ -277,7 +277,7 @@ var myInterval = setInterval(function() {
         {
             inputTrigger(zWords[zCount]);
             zCount++;
-            console.log(zCount);
+            console.log("z: " + zCount + " of " + zWords.length);
         }
     }
     else
